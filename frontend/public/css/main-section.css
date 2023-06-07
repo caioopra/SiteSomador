@@ -1,0 +1,28 @@
+.main-section {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3rem;
+    font-family: 'Fira Code', monospace;
+}
+
+.main-section .input {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.input-value.-first {
+    height: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.input-value.-second {
+    height: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.resultado {
+    margin-top: 1rem;
+    font-size: 1.3rem;  
+}

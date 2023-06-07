@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Somador|RT Medical Systems</title>
+
+        <script src="scripts/getSum.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/title.css" />
+        <link rel="stylesheet" href="css/main-section.css" />
+        <link rel="stylesheet" href="css/main-wrapper.css" />
+        <link rel="stylesheet" href="css/submit-button.css" />
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <section class="title">
+                <h1>Somador de valores</h1>
+                <h2>Projeto desafio RT Medical Systems</h2>
+            </section>
+
+            <section class="main-section">
+                <div class="input">
+                    <input type="number" class="input-value -first" id="v1" />
+                    <p>+</p>
+                    <input type="number" class="input-value -second" id="v2" />
+
+                    <div class="response">
+                        <button
+                            onclick="calculate()"
+                            class="submit-button"
+                            role="button">
+                            Somar
+                        </button>
+                        <p id="resultado" class="resultado"></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

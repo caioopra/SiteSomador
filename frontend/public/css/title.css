@@ -1,0 +1,17 @@
+.title {
+    font-family: 'Fira Code', monospace;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 0.8rem;
+}
+
+.title h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
